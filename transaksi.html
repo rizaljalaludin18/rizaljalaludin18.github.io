@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="keywords"
+      content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Flexy lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Flexy admin lite design, Flexy admin lite dashboard bootstrap 5 dashboard template"
+    />
+    <meta name="description" content="Flexy Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>RZ - Grosir</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/Flexy-admin-lite/" />
+    <link rel="manifest" href="manifest.json" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/1c.png" />
+    <!-- Custom CSS -->
+    <link href="../assets/libs/chartist/dist/chartist.min.css" rel="stylesheet" />
+    <link href="../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="../dist/css/style.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/css/dropify.min.css"
+      integrity="sha512-EZSUkJWTjzDlspOoPSpUFR0o0Xy7jdzW//6qhUkoZ9c4StFkVsp9fbbd0O06p9ELS3H486m4wmrCELjza4JEog=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      .dropify-wrapper {
+        border: 1px solid #e2e7f1;
+        border-radius: 0.3rem;
+        height: 150px;
+        margin-bottom: 10px;
+      }
+
+      .dropify-wrapper .dropify-message p {
+        margin: 5px 410px 0 !important;
+      }
+
+      .colored-toast.swal2-icon-success {
+        background-color: #a5dc86 !important;
+      }
+
+      .colored-toast.swal2-icon-error {
+        background-color: #f27474 !important;
+      }
+
+      .colored-toast.swal2-icon-warning {
+        background-color: #f8bb86 !important;
+      }
+
+      .colored-toast.swal2-icon-info {
+        background-color: #3fc3ee !important;
+      }
+
+      .colored-toast.swal2-icon-question {
+        background-color: #87adbd !important;
+      }
+
+      .colored-toast .swal2-title {
+        color: white;
+      }
+
+      .colored-toast .swal2-close {
+        color: white;
+      }
+
+      .colored-toast .swal2-html-container {
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="preloader">
+      <div class="lds-ripple">
+        <div class="lds-pos"></div>
+        <div class="lds-pos"></div>
+      </div>
+    </div>
+
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+      <header class="topbar" data-navbarbg="skin6">
+        <nav class="navbar top-navbar navbar-expand-md">
+          <div class="navbar-header" data-logobg="skin6">
+            <a class="navbar-brand">
+              <b class="logo-icon"> RZ GROSIR </b>
+            </a>
+
+            <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i class="mdi mdi-menu"></i></a>
+          </div>
+
+          <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
+            <ul class="navbar-nav float-start me-auto"></ul>
+
+            <ul class="navbar-nav float-end">
+              <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic"
+                                href="https://github.com/hippies67" id="navbarDropdown">
+                                <img src="assets/images/ikbal.jpg" alt="user" class="rounded-circle" width="31">
+                                <div class="d-none d-md-flex">
+                                    <span class="ms-2">Hi,
+                                        <span class="text-dark fw-bold">Ikbal Malik R</span></span>
+                                    <span>
+                                        <i data-feather="chevron-down" class="feather-sm"></i>
+                                    </span>
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end user-dd animated"
+                                aria-labelledby="navbarDropdown">
+                               
+                        </li> -->
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <aside class="left-sidebar" data-sidebarbg="skin6">
+        <!-- Sidebar scroll-->
+        <div class="scroll-sidebar">
+          <!-- Sidebar navigation-->
+          <nav class="sidebar-nav">
+            <ul id="sidebarnav">
+              <li class="sidebar-item">
+                <a class="sidebar-link waves-effect waves-dark sidebar-link" href="index.html" aria-expanded="false"><i class="bi bi-clipboard-data"></i><span class="hide-menu">Data Barang</span></a>
+              </li>
+              <li class="sidebar-item">
+                <a class="sidebar-link waves-effect waves-dark sidebar-link" href="/" aria-expanded="false"><i class="bi bi-credit-card"></i><span class="hide-menu">Transaksi</span></a>
+              </li>
+            </ul>
+          </nav>
+          <!-- End Sidebar navigation -->
+        </div>
+        <!-- End Sidebar scroll-->
+      </aside>
+
+      <div class="page-wrapper">
+        <div class="page-breadcrumb">
+          <div class="row align-items-center">
+            <div class="col-6">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0 d-flex align-items-center">
+                  <li class="breadcrumb-item">
+                    <a href="/" class="link"> <i class="bi bi-credit-card"></i></a>
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">Portal Transaksi</li>
+                </ol>
+              </nav>
+              <h1 class="mb-0 fw-bold">Transaksi</h1>
+              <!-- <h6 class="card-subtitle mt-2">Berikut merupakan semua barang yang tersedia</h6> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="">
+            <form onsubmit="return false">
+              <table>
+                <tr>
+                  <div class="col-lg-2">
+                    <label>Nama Barang</label>
+
+                    <select name="barang" id="barang" onchange="tampilkan_total()" width="100px">
+                      <option value="Energen">Energen</option>
+                      <option value="Soklin">Soklin liquid</option></select
+                    ><br />
+                  </div>
+                  <br />
+                  <div class="col-lg-1">
+                    <label>Jenis </label>
+                    <select name="jenis" id="jenis" onchange="tampilkan_total()">
+                      <option value="Satuan">Satuan</option>
+                      <option value="Dus">Sachet</option></select
+                    ><br />
+                    <br />
+                  </div>
+                  <div class="col-lg-1">
+                    <label>Jumlah</label>
+                  </div>
+
+                  <input type="number" id="jumlah" width="100px" value="0" onchange="tampilkan_total()" /><br />
+                  <br />
+                  <button type="submit" class="btn btn-primary text-White">Hitung</button>
+                </tr>
+              </table>
+            </form>
+            <br />
+            <h1>Total : <span id="Total"></span></h1>
+            <br />
+            <form onsubmit="return false">
+              <div class="col-lg-1">
+                <label>Pembayaran:</label>
+                <input type="number" id="bayar" onchange="tampilkan_bayar()" /><br />
+                <br />
+                <button type="submit" class="btn btn-primary text-White">Bayar</button>
+              </div>
+              <br />
+            </form>
+            <h1>Kembalian : <span id="kembalian"></span></h1>
+            <script>
+              function tampilkan_total() {
+                var barang = document.getElementById("barang").value;
+                var jenis = document.getElementById("jenis").value;
+                var jumlah = document.getElementById("jumlah").value;
+
+                if (barang == "Energen") {
+                  if (jenis == "Dus") {
+                    total = jumlah * 10000;
+                  } else if (jenis == "Satuan") {
+                    total = jumlah * 2000;
+                  }
+                } else if (barang == "Soklin") {
+                  if (jenis == "Dus") {
+                    total = jumlah * 9000;
+                  } else if (jenis == "Satuan") {
+                    total = jumlah * 500;
+                  }
+                }
+                document.getElementById("Total").innerHTML = total;
+              }
+
+              function tampilkan_bayar() {
+                var bayar = document.getElementById("bayar").value;
+                var kembalian = bayar - total;
+                document.getElementById("kembalian").innerHTML = kembalian;
+              }
+            </script>
+          </div>
+        </div>
+
+        <footer class="footer text-center">&copy Rizal Jalaludin</footer>
+      </div>
+    </div>
+
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../dist/js/app-style-switcher.js"></script>
+    <!--Wave Effects -->
+    <script src="../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../dist/js/custom.js"></script>
+    <!--This page JavaScript -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="dist/js/register.js"></script>
+    <script src="dist/js/script.js"></script>
+    <script src="service-worker.js"></script>
+  </body>
+</html>

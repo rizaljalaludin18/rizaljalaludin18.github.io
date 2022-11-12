@@ -1,0 +1,21 @@
+{
+  "name": "RZ Grosir",
+  "short_name": "Grosir",
+  "description": "Aplikasi Grosir dengan js and PWA ",
+  "icons": [
+    {
+      "src": "assets/img/1c.png",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/1c.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1F3641",
+  "background_color": "#ffffff",
+  "prefer_related_applications": false
+}
